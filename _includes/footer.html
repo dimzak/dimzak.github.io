@@ -29,11 +29,15 @@
       {%- include snippets/locale-to-string.html locale=site.data.locale.NAV.RSS -%}
       {%- assign _locale_nav_rss = __return -%}
       <p class="menu menu--center">
-        <span>© {{ site.title }} {{ site.data.locale.COPYRIGHT_DATES }}</span>
-        <a type="application/rss+xml" href="{{ _paths_rss }}">{{ _locale_nav_rss }}</a>
+        <span>© {{ site.title }} {{ site.data.locale.COPYRIGHT_DATES }} <br/>
+        Powered by <a title="Jekyll is a simple, blog-aware, static site generator." href="http://jekyllrb.com/">Jekyll</a> & <a
+        title="TeXt is a succinct theme for blogging." href="https://github.com/kitian616/jekyll-TeXt-theme">TeXt Theme</a>.<br/>
+        <a type="application/rss+xml" href="{{ _paths_rss }}">{{ _locale_nav_rss }}</a></span>
+        <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=3&t=c&d=2018-09-18&ci=AWS00592663">
+          <img border="0" alt="W3Schools" src="https://www.certmetrics.com/amazon/Telerik.Web.UI.WebResource.axd?imgid=efc46aa94e4c475fa15cf772ab803ff1&type=rbi" width="100" height="100">
+        </a>
       </p>
-      <p>Powered by <a title="Jekyll is a simple, blog-aware, static site generator." href="http://jekyllrb.com/">Jekyll</a> & <a
-        title="TeXt is a succinct theme for blogging." href="https://github.com/kitian616/jekyll-TeXt-theme">TeXt Theme</a>.
+      <p>
       </p>
     </footer>
   </div>

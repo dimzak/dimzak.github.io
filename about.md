@@ -3,7 +3,6 @@ layout: article
 title: About
 key: page-about
 ---
-
 Hi I'm Dimitris, welcome to my blog!  
 
 This is a place to keep my thoughts, mostly about work as my mind is running OutOfMemory.  
