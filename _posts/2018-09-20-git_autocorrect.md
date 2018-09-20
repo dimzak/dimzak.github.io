@@ -1,7 +1,7 @@
 ---
 title: Git autocorrect from heavens
 key: 20180701
-tags: git, tricks
+tags: git tricks
 ---
 
 What's your favorite git command?  

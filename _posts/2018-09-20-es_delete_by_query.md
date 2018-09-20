@@ -1,7 +1,7 @@
 ---
 title: Delete Elasticsearch index, keep mappings/settings
 key: 20180701
-tags: elasticsearch, tricks
+tags: elasticsearch tricks
 ---
 
 One of the most used problems when I develop against `ElasticSearch` is that I often require a clean index to debug or investigate an issue.  
