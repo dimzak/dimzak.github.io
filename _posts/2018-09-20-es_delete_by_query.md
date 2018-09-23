@@ -1,6 +1,6 @@
 ---
 title: Delete Elasticsearch index, keep mappings/settings
-key: 20180701
+key: 20180920
 tags: elasticsearch tricks
 ---
 

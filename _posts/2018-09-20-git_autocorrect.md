@@ -1,6 +1,6 @@
 ---
 title: Git autocorrect from heavens
-key: 20180701
+key: 20180920
 tags: git tricks
 ---
 
