@@ -36,3 +36,5 @@ Alternatevily use `not(contains(., 'gif'))` to get all non gif images and then d
 * [sitemaps](https://en.wikipedia.org/wiki/Site_map) are your friends, even if they don't follow [Google's](https://support.google.com/webmasters/answer/156184?hl=en) format, they are still full of internal links,
 * `xpath` won't work on react, angular generally any heavy javascript website, use [PhantomJS](http://phantomjs.org/) or [Headless Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome) (new kid on the block), [Selenium](https://www.seleniumhq.org/) or something equivalent that can
 first convert javascript to html and then use xpath. 
+* And lastly as this has bitten me a lot in the past, always update your web-scraping machine, along with os security and software updates, ssl certs
+will be added.Unless you want to swim into ssl errors.
